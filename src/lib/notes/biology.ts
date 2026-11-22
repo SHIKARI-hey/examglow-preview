@@ -417,7 +417,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Describe two ways in which a sperm cell is specialised for its function. [4]",
           "Explain how a root hair cell is adapted to absorb water. [3]",
           "Give one way in which a xylem vessel and a phloem sieve tube differ in structure. [2]"
-        ]
+        ],
+        "figure": "![Cell Specialisation](/notes/biology/bio-007-specialised-cells.jpg)"
       }
     ]
   },
@@ -431,7 +432,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "The Light Microscope and Magnification",
         "body": "### Turning a Lens Formula into Marks\nA light microscope magnifies twice, by the **objective lens** and then the **eyepiece lens**, so total magnification is their **product**: ×10 with ×40 gives ×400.\n\n**magnification = image size ÷ actual size**, so with *i* for image size, *a* for actual size and *m* for magnification:\n\n- *m = i ÷ a*\n- *a = i ÷ m*\n- *i = a × m*",
-        "figure": "\n\n",
+        "figure": "![Size of Specimens & Magnification](/notes/biology/bio-008-microscope-magnification.jpg)",
         "groups": [
           {
             "subTitle": "Working the Instrument",
@@ -501,7 +502,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Levels of Organisation",
         "body": "### The Order You Must Be Able to Write Out\nA **cell** is the smallest unit that carries out all the processes of life.\n\nEverything above it is built by grouping cells and giving the group a job.\n\n| Level | Definition | Animal example | Plant example |\n| --- | --- | --- | --- |\n| Cell | the basic structural and functional unit of life | muscle cell, gland cell, red blood cell | guard cell, mesophyll cell, root hair cell |\n| Tissue | a group of similar cells with the same structure and the same function | muscle tissue, ciliated epithelium, nerve tissue | xylem, phloem, epidermis, cambium |\n| Organ | a group of different tissues working together to perform one function | heart, stomach, lung, brain, small intestine | leaf, flower, root, stem |\n| System | a group of organs that cooperate to carry out one overall process | digestive, circulatory, respiratory, nervous | not used — plants stop at organ level |\n| Organism | one individual, whose systems interact to keep it functioning | a human, a grasshopper | a sunflower, a fern |",
-        "figure": "",
+        "figure": "![Levels of Organisation](/notes/biology/bio-009-levels-of-organisation.jpg)",
         "groups": [
           {
             "bullets": [
@@ -716,7 +717,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain the advantage of counter-current flow across a fish gill lamella. [3]",
           "State how gases enter and leave a leaf and name the cells that control the openings. [2]",
           "Explain why a flatworm does not need a gas exchange system but a mouse does. [4]"
-        ]
+        ],
+        "figure": "![Factors Influencing Diffusion](/notes/biology/bio-011-surface-area-volume.jpg)"
       },
       {
         "title": "Surface Area to Volume Ratio",
@@ -778,7 +780,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Osmosis and Turgidity",
         "body": "### Water Has a Direction\n\n**Osmosis is the net movement of water molecules from a region of higher water potential to a region of lower water potential, through a partially permeable membrane.\n\nWater travels towards the more concentrated solution, and the cellulose wall decides how a cell responds.",
-        "figure": "\n\n",
+        "figure": "![Osmosis](/notes/biology/bio-012-osmosis-membrane.jpg)",
         "groups": [
           {
             "subTitle": "The Three States of a Plant Cell",
@@ -856,7 +858,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Explain why plant stems wilt when deprived of water for several days. [3]",
           "Distinguish between a turgid, flaccid, and plasmolysed plant cell. [3]"
-        ]
+        ],
+        "figure": "![Osmosis in Plant Tissues](/notes/biology/bio-013-osmosis-plant-cells.jpg)"
       }
     ]
   },
@@ -881,7 +884,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Describe what happens to human red blood cells placed in distilled water. [2]",
           "Explain why kidney osmoregulation is vital for preventing cellular damage in humans. [3]"
-        ]
+        ],
+        "figure": "![Osmosis in Animals](/notes/biology/ch03-diffusion-beaker.webp)"
       }
     ]
   },
@@ -895,7 +899,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Active Transport",
         "body": "### The Exception That Wins Marks\n\n**Active transport is the movement of particles through a cell membrane from a region of lower concentration to a region of higher concentration — against a concentration gradient — using energy released by respiration.\n\nThe energy comes from **aerobic respiration in the mitochondria** of the absorbing cell, so these cells are densely mitochondrial.",
-        "figure": "\n\n",
+        "figure": "![Active Transport](/notes/biology/ch03-active-transport.webp)",
         "groups": [
           {
             "subTitle": "Cases You Are Expected to Name",
@@ -961,7 +965,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "State two structural features of cell membranes essential for active transport. [2]",
           "Compare diffusion and active transport in terms of energy and direction of movement. [4]"
-        ]
+        ],
+        "figure": "![Comparing Active Transport & Diffusion](/notes/biology/ch03-root-hair-cell.webp)"
       }
     ]
   },
@@ -1019,7 +1024,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain why the percentage change in mass is used instead of the change in grams. [2]",
           "Three agar cubes of 5 mm, 10 mm and 15 mm side are placed in dilute acid. Predict the order in which they lose colour and explain. [3]",
           "State two variables that must be kept constant in the potato experiment. [2]"
-        ]
+        ],
+        "figure": "![Practical Investigations of Movement](/notes/biology/ch03-potato-osmosis.webp)"
       }
     ]
   },
@@ -1033,7 +1039,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "The Four Classes of Biological Molecules",
         "body": "### Elements First, Then Jobs\nA **biological molecule** is a molecule made by a living organism.\n\nFour classes are examined, and each is recognised by its elements, its building blocks and the reagent that detects it.\n\n| Class | Elements | Building blocks | Main roles | Test |\n| --- | --- | --- | --- | --- |\n| Carbohydrate | carbon, hydrogen, oxygen | simple sugars (monosaccharides) | immediate energy, storage as starch or glycogen, structure as cellulose | iodine for starch, Benedict's for reducing sugar |\n| Lipid | carbon, hydrogen, oxygen (far less oxygen than a carbohydrate) | fatty acids and glycerol | long-term energy store, insulation, waterproofing, cell membranes | ethanol emulsion |\n| Protein | carbon, hydrogen, oxygen, nitrogen; often sulfur too | amino acids | enzymes, hormones, antibodies, structure, transport | biuret |\n| Nucleic acid | carbon, hydrogen, oxygen, nitrogen, phosphorus | nucleotides | hold the inherited instructions as DNA and RNA | not a food test |",
-        "figure": "",
+        "figure": "![Carbohydrates, Lipids & Proteins](/notes/biology/ch04-food-molecules.webp)",
         "groups": [
           {
             "subTitle": "Energy, Structure or Control",
@@ -1186,7 +1192,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Food Tests in the Laboratory",
         "body": "### Reagent, Colour Change, and Nothing Else\n\nFour core tests carry almost every mark in this section, with two staining or dye tests appearing as alternatives.\n\nThe answer format is always **reagent plus observed colour change**, and the marks are split between the two halves, so 'it turns red' scores nothing.\n\n| Nutrient | Reagent and procedure | Positive result | Negative result |\n| --- | --- | --- | --- |\n| Starch | iodine solution, added to the sample on a spotting tile and observed at once | blue-black or black | stays brown-yellow |\n| Reducing sugar | Benedict's reagent added, then the tube heated in a hot water bath for a few minutes | blue to green, then yellow, orange and finally brick-red precipitate | stays blue |\n| Protein | biuret reagent added and the tube shaken and left for a few minutes | blue to lilac or purple | stays blue |\n| Lipid | sample shaken with ethanol, then this liquid poured into water | cloudy white emulsion forms | solution stays clear |\n| Lipid, by staining | Sudan III or Sudan IV solution added, left, then rinsed off | orange-red droplets of stained fat | dye spreads evenly with no separate droplets |\n| Vitamin C | DCPIP solution, a blue dye, added dropwise from a syringe | blue turns colourless at the endpoint | colour stays blue |",
-        "figure": "\n\n",
+        "figure": "![Food Tests in the Laboratory](/notes/biology/ch04-food-tests.webp)",
         "groups": [
           {
             "subTitle": "Controls and Safety",
@@ -1247,7 +1253,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Enzymes as Biological Catalysts",
         "body": "### Specific, Catalytic and Very Sensitive to Conditions\n\nAn **enzyme is a protein produced by living cells that acts as a biological catalyst**, speeding up one specific reaction without being used up.\n\nEnzymes work by **lowering the activation energy**, the energy needed to start a reaction, so reactions run quickly at the mild temperatures and pH a cell tolerates.\n\n| Enzyme | Substrate | Product | Where it acts |\n| --- | --- | --- | --- |\n| Amylase | starch | maltose | mouth and small intestine; also made by plants and fungi |\n| Maltase | maltose | glucose | small intestine |\n| Protease | protein | amino acids | stomach and small intestine |\n| Lipase | lipid | fatty acids and glycerol | small intestine |\n| Catalase | hydrogen peroxide | water and oxygen | almost all living cells, including yeast and potato |",
-        "figure": "",
+        "figure": "![DNA Structure & Role of Water](/notes/biology/ch17-dna-helix.webp)",
         "groups": [
           {
             "subTitle": "The Three Factors on a Rate Graph",
@@ -1513,7 +1519,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain why the rate falls sharply above the optimum temperature. [4]",
           "A sample cooled from 70 degrees Celsius back to 37 degrees shows no recovery in rate. Explain why. [2]",
           "Explain why refrigeration slows the spoilage of food. [2]"
-        ]
+        ],
+        "figure": "![Effect of Temperature on Enzymes](/notes/biology/ch05-denatured-enzyme.webp)"
       }
     ]
   },
@@ -1565,7 +1572,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain how a pH far from the optimum lowers the rate of an enzyme-controlled reaction. [4]",
           "Give the approximate optimum pH of pepsin and of trypsin, and relate each to where it works. [4]",
           "Name the enzyme that works in the stomach and give its approximate optimum pH. [2]"
-        ]
+        ],
+        "figure": "![Effect of pH on Enzymes](/notes/biology/ch05-lock-and-key.webp)"
       }
     ]
   },
@@ -1578,7 +1586,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Measuring Rate and Designing a Fair Test",
-        "figure": "",
+        "figure": "![Investigating Rate of Enzyme Reactions](/notes/biology/ch05-enzyme-jar.webp)",
         "body": "The **rate of a reaction** is the amount of substrate used up or product formed **per unit time**, and the units must always be stated, such as oxygen in cubic centimetres per minute.\n\n### The two graph shapes that are always compared\n1.\n\n**Substrate concentration, everything else constant:** the rate rises, then reaches a **plateau** once every active site is occupied.\n2.\n\n**Enzyme concentration, substrate unlimited:** the rate rises in a straight line, since more enzyme means more active sites.",
         "groups": [
           {
@@ -1634,7 +1642,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Amylase, Protease, Lipase and Catalase",
-        "figure": "",
+        "figure": "![Enzymes in Digestion & Industry](/notes/biology/ch05-bile-fat.webp)",
         "body": "Digestive enzymes are **hydrolases**: each one uses water to break bonds in a large insoluble food molecule, producing a smaller soluble one that can be absorbed.\n\nNote that the molecule names, the products and the location are all examinable, and mixing them up is the most common loss of marks in this section.\n\n",
         "groups": [
           {
@@ -1774,7 +1782,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "State the balanced chemical equation for photosynthesis. [2]",
           "State the function of chlorophyll in photosynthesis. [1]"
-        ]
+        ],
+        "figure": "![Word & Chemical Equations for Photosynthesis](/notes/biology/ch06-whole-plant.webp)"
       }
     ]
   },
@@ -1787,7 +1796,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Testing a Leaf for Starch",
-        "figure": "",
+        "figure": "![Investigating Photosynthesis & Starch](/notes/biology/ch06-starch-test.webp)",
         "body": "Starch in a leaf is the visible evidence that photosynthesis has happened, so the iodine test is the standard practical for showing that light, carbon dioxide and chlorophyll are all needed.",
         "groups": [
           {
@@ -1880,7 +1889,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Define the term limiting factor. [2]",
           "Explain why increasing light intensity beyond a certain point does not increase the rate of photosynthesis. [2]"
-        ]
+        ],
+        "figure": "![Limiting Factors: Light Intensity](/notes/biology/ch06-whole-plant.webp)"
       }
     ]
   },
@@ -1903,7 +1913,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain how commercial growers optimize carbon dioxide levels in commercial greenhouses. [2]"
-        ]
+        ],
+        "figure": "![Limiting Factors: Carbon Dioxide Concentration](/notes/biology/ch06-whole-plant.webp)"
       }
     ]
   },
@@ -1973,7 +1984,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain the shape of a rate-against-light-intensity curve, including why it plateaus. [4]",
           "Describe what happens to gas exchange at the compensation point. [2]",
           "Explain why a hot, dry day can slow photosynthesis even in bright light. [3]"
-        ]
+        ],
+        "figure": "![Limiting Factors: Temperature](/notes/biology/ch06-whole-plant.webp)"
       }
     ]
   },
@@ -2043,7 +2055,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "State two ways in which the spongy mesophyll helps gas exchange. [2]",
           "Explain how guard cells cause a stoma to open. [3]",
           "State the function of the waxy cuticle and of the veins in a leaf. [2]"
-        ]
+        ],
+        "figure": "![Leaf Structure & Anatomical Adaptations](/notes/biology/ch06-leaf-cross-section.webp)"
       }
     ]
   },
@@ -2067,7 +2080,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Describe how guard cells cause stomatal pores to open in daylight. [3]",
           "State the trade-off plants face regarding stomatal opening. [2]"
-        ]
+        ],
+        "figure": "![Stomata & Gas Exchange in Leaves](/notes/biology/ch06-leaf-cross-section.webp)"
       }
     ]
   },
@@ -2080,7 +2094,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Mineral Ions and Deficiency Symptoms",
-        "figure": "",
+        "figure": "![Plant Mineral Requirements (Nitrate & Magnesium)](/notes/biology/ch06-deficient-plants.webp)",
         "body": "Plants need the glucose they make, and they also need **mineral ions** from the soil water to build the rest of their molecules.\n\nIons are absorbed by **root hair cells**; because their concentration in soil water is often lower than in the cell sap, the uptake is largely by **active transport**, using energy from respiration.",
         "groups": [
           {
@@ -2149,7 +2163,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "A plant exhibits yellow leaves and poor growth. Deduce which mineral ion is deficient and explain your reasoning. [3]"
-        ]
+        ],
+        "figure": "![Plant Mineral Deficiencies & Symptoms](/notes/biology/ch06-deficient-plants.webp)"
       }
     ]
   },
@@ -2173,7 +2188,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "State three uses of glucose synthesized by a plant. [3]",
           "Explain why plants convert glucose into starch for long-term storage. [2]"
-        ]
+        ],
+        "figure": "![Use & Storage of Photosynthetic Products](/notes/biology/ch06-starch-test.webp)"
       }
     ]
   },
@@ -2187,7 +2203,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "What a Balanced Diet Has to Contain",
         "body": "A **balanced diet** supplies all the major food classes in the right proportions, with enough energy for the person and enough **fibre** to keep the gut moving.\n\nThe proportions shift with age, sex, body size, activity, and whether someone is growing, pregnant or breastfeeding.\n\n### Why the diet has to be planned rather than assumed\n\n| Component | Why it must be in the diet |\n| --- | --- |\n| Carbohydrate | the body's main and quickest source of energy; also spares protein from being burned |\n| Protein | supplies the amino acids the body cannot make, for growth and repair |\n| Lipid (fat) | a concentrated energy store, insulation, part of cell membranes, a carrier for fat-soluble vitamins |\n| Fibre (roughage) | not digested, but keeps the gut moving and prevents constipation |\n| Vitamins | needed in tiny amounts to run specific reactions; the body cannot synthesise most of them |\n| Mineral ions | used in structures and in the control of reactions, such as calcium in bone and iron in haemoglobin |\n| Water | the solvent and transport medium of every reaction in the body |",
-        "figure": "",
+        "figure": "![Balanced Diet & Nutrients](/notes/biology/ch07-balanced-plate.webp)",
         "groups": [
           {
             "bullets": [
@@ -2304,7 +2320,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Identify the dietary deficiency responsible for anaemia and explain the physiological consequence. [3]"
-        ]
+        ],
+        "figure": "![Vitamins, Minerals & Water](/notes/biology/ch07-vitamins.webp)"
       }
     ]
   },
@@ -2317,7 +2334,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Deficiency Diseases and the Role of Roughage",
-        "figure": "",
+        "figure": "![Dietary Deficiencies & Malnutrition](/notes/biology/ch07-balanced-plate.webp)",
         "body": "A diet that lacks one nutrient produces a characteristic illness, and the illness disappears when that nutrient is supplied again.\n\nThese are the deficiencies examined at this level.\n\n| Missing nutrient | Sources in food | Function | Deficiency disease or symptom |\n| --- | --- | --- | --- |\n| Vitamin A (retinol) | liver, milk, butter, eggs, carrots and other orange vegetables | needed for the light-sensitive pigment of the retina and for healthy skin | poor vision in dim light, known as night blindness; dry skin; greater susceptibility to infection |\n| Vitamin B1 (thiamine) | whole wheat and other cereals, pork, beans, nuts | needed for the release of energy from carbohydrate and for normal nerve function | beriberi: weakness and wasting of the muscles, with nervous-system symptoms; loss of appetite |\n| Vitamin C (ascorbic acid) | citrus fruit, blackcurrants, guava, green peppers, fresh leafy vegetables | needed for the making of collagen in connective tissue, and for healthy gums and wound healing | scurvy: swollen and bleeding gums, loose teeth, slow healing of cuts, tiredness |\n| Vitamin D | oily fish, eggs, milk and milk products; also made in the skin when sunlight falls on it | helps calcium and phosphate be absorbed from the ileum and laid down in bone | rickets in children: soft, bent legs; in adults, bones that lose mineral and break easily |\n| Calcium | milk, cheese, other dairy food, fish eaten with its bones, green leafy vegetables | builds bone and teeth; needed for blood clotting and for the contraction of muscles | poor formation of bones and teeth, rickets in the young, thin bones that fracture in later life |\n| Iron | red meat, liver, eggs, green leafy vegetables, beans | part of the haemoglobin of red blood cells, so it carries oxygen | anaemia: less haemoglobin, paleness, breathlessness and tiredness |\n\nVitamin C is destroyed by prolonged cooking and by soaking food in water for a long time, so a diet of overcooked, refined or processed food is the classic route to scurvy.\n\n### Roughage, or dietary fibre\nFibre is the **cellulose** of plant cell walls.\n\nHuman enzymes cannot break it down, so it travels through the gut largely unchanged.\n\nIt is still essential:\n\n- it **absorbs water**, which softens the faeces and adds bulk to them;\n- the bulk **stretches the wall of the gut and stimulates peristalsis**, so material is moved along and emptied regularly;\n- that prevents **constipation** and the diverticular problems that come from straining;\n- a fibre-rich diet, typically one high in whole grains, vegetables, fruit, beans and peas, is associated with a lower incidence of bowel disorders and slows the rise of sugar in the blood after a meal;\n- diets short in fibre and high in soft, sticky sugars are linked to tooth decay as well as to constipation.",
         "groups": [
           {
@@ -2438,7 +2455,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "State the function of molars in mechanical digestion. [1]",
           "Label the enamel, dentine, and pulp cavity in a tooth diagram. [3]"
-        ]
+        ],
+        "figure": "![Human Teeth Types & Functions](/notes/biology/ch07-teeth.webp)"
       }
     ]
   },
@@ -2462,7 +2480,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Explain how bacteria in plaque cause dental decay. [3]",
           "State two methods for reducing the incidence of dental caries. [2]"
-        ]
+        ],
+        "figure": "![Dental Decay & Prevention](/notes/biology/ch07-teeth.webp)"
       }
     ]
   },
@@ -2486,7 +2505,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Distinguish between mechanical and chemical digestion. [2]",
           "Explain why mechanical digestion accelerates chemical digestion. [2]"
-        ]
+        ],
+        "figure": "![Mechanical vs Chemical Digestion](/notes/biology/ch07-alimentary-canal.webp)"
       }
     ]
   },
@@ -2499,7 +2519,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Digestion: Enzymes, Acids and Bile at Work",
-        "figure": "",
+        "figure": "![Chemical Digestion: Digestive Enzymes](/notes/biology/ch07-alimentary-canal.webp)",
         "body": "**Mechanical digestion** breaks food into smaller pieces physically, changing its size and surface area but not its chemistry.\n\n**Chemical digestion** is the enzyme action that splits large **insoluble** molecules into small **soluble** ones that can enter the blood.\n\n\n\n| Enzyme | Substrate | Product | Where it works |\n| --- | --- | --- | --- |\n| salivary and pancreatic amylase | starch | maltose | mouth, then duodenum |\n| maltase from intestinal juice | maltose | glucose | ileum |\n| pepsin | protein | shorter peptide chains | stomach, at an acid pH |\n| trypsin | protein and peptides | amino acids | duodenum and ileum, at an alkaline pH |\n| lipase | fats | fatty acids and glycerol | duodenum and ileum |",
         "groups": [
           {
@@ -2579,7 +2599,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "State two functions of hydrochloric acid in gastric juice. [2]"
-        ]
+        ],
+        "figure": "![Functions of Hydrochloric Acid in Gastric Juice](/notes/biology/ch07-alimentary-canal.webp)"
       }
     ]
   },
@@ -2603,7 +2624,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Explain why bile is necessary for the efficient digestion of fats in the duodenum. [3]",
           "State where bile is produced, where it is stored, and where it acts. [3]"
-        ]
+        ],
+        "figure": "![Bile: Production, Neutralisation & Emulsification](/notes/biology/ch05-bile-fat.webp)"
       }
     ]
   },
@@ -2673,7 +2695,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain why the capillary network keeps diffusion from the gut fast. [3]",
           "Name two products absorbed in the ileum that are moved by active transport, and give the reason energy is needed. [3]",
           "Explain the difference between absorption and assimilation. [2]"
-        ]
+        ],
+        "figure": "![Small Intestine: Adaptations & Villi Structure](/notes/biology/ch07-alimentary-canal.webp)"
       }
     ]
   },
@@ -2697,7 +2720,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Name the vessel that transports glucose and amino acids from the ileum to the liver. [1]",
           "State the function of the lacteal inside a villus. [1]"
-        ]
+        ],
+        "figure": "![Lacteals, Capillaries & Absorption](/notes/biology/ch07-alimentary-canal.webp)"
       }
     ]
   },
@@ -2721,7 +2745,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Define the term assimilation. [2]",
           "Describe the process of deamination in the human liver. [3]"
-        ]
+        ],
+        "figure": "![Assimilation & Role of the Liver](/notes/biology/ch15-alcohol-liver.webp)"
       }
     ]
   },
@@ -2745,7 +2770,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Explain how the cholera bacterium causes severe dehydration in infected individuals. [4]",
           "Explain the biological basis of treating cholera with oral rehydration therapy. [2]"
-        ]
+        ],
+        "figure": "![Cholera, Diarrhoea & Oral Rehydration Therapy](/notes/biology/ch07-alimentary-canal.webp)"
       }
     ]
   },
@@ -2759,7 +2785,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Xylem and Phloem: Two Vascular Tissues",
         "body": "### Where the tissues sit\n\nXylem and phloem run together through the plant as **vascular bundles**, forming a continuous system from root tip to leaf margin to young stem.\n\nIn a dicotyledonous stem the bundles are arranged in a ring, with xylem towards the inside and phloem towards the outside; in a monocotyledonous stem they are scattered.\n\nIn a leaf the bundles become the veins, and every vein ends within a few cells of a photosynthesising mesophyll cell.\n\n### Why the two tissues are built so differently\n\nXylem only has to conduct water and resist being squashed, so it can afford to be dead: a hollow, lignified pipe is both cheap and strong.\n\nPhloem has to move a concentrated solution against a pressure gradient, which requires living cytoplasm and a nearby supply of ATP.\n\nThat single difference explains almost every structural contrast you are asked to describe.\n\n### What a Bundle Contains Besides Tubing\n\nA vascular bundle is more than two pipe systems: it also carries **sclerenchyma fibres**, whose lignified walls give the bundle its strength, and phloem parenchyma beside the sieve tubes and companion cells.\n\nWhen a question asks you to name the tissues in a bundle, credit xylem, phloem and supporting tissue as three separate answers.\n\n### Staining a Stem in Red Ink\n\nA shoot left in dilute red ink or eosin colours only the xylem, because the dye travels with the transpiration stream.\n\nA cross-section cut after a few hours shows one red point per bundle, the standard practical evidence for where xylem lies.\n\n### Arrangement Differs in Root, Stem and Leaf\n\nIn a dicot root the xylem forms a solid central cross with phloem in the gaps between its arms, whereas in a dicot stem the bundles lie in a ring.\n\nIn a leaf the bundles become veins: the midrib carries the largest, and finer veins branch across the lamina so that no mesophyll cell lies far from a xylem ending.\n\n",
-        "figure": "",
+        "figure": "![Xylem & Phloem Distribution](/notes/biology/ch08-stem-cross-section.webp)",
         "groups": [
           {
             "subTitle": "Xylem: structure matched to function",
@@ -2872,7 +2898,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Nitrate ions are more concentrated in the root cell than in the soil. Name and explain the process by which they are absorbed. [3]",
           "State the function of the Casparian strip in the endodermis. [2]",
           "Name the three pathways by which water may travel through the cortex of a root. [3]"
-        ]
+        ],
+        "figure": "![Root Hair Cells & Water Uptake](/notes/biology/ch03-root-hair-cell.webp)"
       }
     ]
   },
@@ -2895,7 +2922,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Describe the pathway of water through a dicotyledonous plant from soil to air. [4]"
-        ]
+        ],
+        "figure": "![Pathway of Water Through Plant](/notes/biology/ch08-celery-dye.webp)"
       }
     ]
   },
@@ -2909,7 +2937,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Transpiration and the Cohesion–Tension Mechanism",
         "body": "### Definition, stated carefully\n\n**Transpiration is the loss of water vapour from the surfaces of the leaves, mainly through the stomata.\n\nIt is not evaporation from a dead surface, and it is not excretion: the water lost was part of a living plant's evaporating surfaces.\n\nMost of it leaves from the wet walls of mesophyll cells, where it has spread after arriving in the leaf vein, so anything that increases the exposed wet surface or the diffusion gradient increases the rate.\n\n### How stomata open and close\nEach stoma is bounded by a pair of **guard cells**. Guard cells have a thickened inner wall (next to the pore) and a thinner outer wall.\n\nWhen sugars and potassium ions accumulate in a guard cell, its water potential falls, water enters by osmosis, the cell becomes turgid, and the uneven wall thickness makes the pair bow outward so the pore opens.\n\nLosing water makes them flaccid and the pore closes.\n\nIn most plants stomata are open in daylight because photosynthesis supplies the solutes and darkness triggers closure;\n\nWater stress also closes them, and some succulents reverse the timing to open only at night.\n\n### Two More Routes Out of the Leaf\n\nMost water leaves through stomata, but a small proportion passes straight through the waxy **cuticle** of the epidermis, and woody stems lose a further trickle through **lenticels**, the pores in bark.\n\nNo surface is fully sealed, so a plant kept in humid air still loses water, just far more slowly.\n\n### The Barrier Each Water Molecule Crosses\n\nFrom the xylem ending in a vein, water must pass through mesophyll cell walls, a cell membrane and finally an air space before it can escape through a pore.\n\nEvery one of those surfaces is a place where evaporation lowers the water potential, so the whole wet pathway contributes to the pull.\n\n### The mechanism that lifts the water\n1. Water evaporates from the thin film covering the mesophyll cell walls into the air spaces of the leaf.\n2. That film is drawn from the cell's own cytoplasm, so the cell's water potential falls and it takes water from the xylem in the vein.\n3. Removing water from the top of the column lowers the pressure inside the xylem below atmospheric pressure: this is **tension**, a negative pressure.\n4. Because water molecules **cohere** by hydrogen bonding, the pull at the top is transmitted down the whole unbroken column, so the entire stream rises as one.\n5. **Adhesion** between water and the hydrophilic, lignified walls keeps the column lining the tube and stops it falling back.\n\n",
-        "figure": "",
+        "figure": "![Transpiration & Stomata](/notes/biology/ch08-transpiration.webp)",
         "groups": [
           {
             "subTitle": "The Terms, Precisely",
@@ -3023,7 +3051,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain why a plant transpires faster in a draughty room than in still air of the same temperature. [2]",
           "Explain how a rolled leaf reduces water loss. [3]",
           "List four variables that must be controlled when comparing transpiration at two temperatures. [4]"
-        ]
+        ],
+        "figure": "![Factors Affecting Transpiration Rate](/notes/biology/ch08-transpiration.webp)"
       }
     ]
   },
@@ -3036,7 +3065,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Measuring Transpiration with a Potometer",
-        "figure": "",
+        "figure": "![Investigating Transpiration with a Potometer](/notes/biology/ch08-potometer.webp)",
         "body": "### Principle\n\nA **potometer** measures how quickly a cut shoot takes up water.\n\nUptake is assumed to equal loss, so the distance the air bubble travels along a graduated capillary per unit time gives an estimate of the rate of transpiration.\n\nThe classic versions are the well-type potometer, where the shoot is held above a water reservoir and the whole apparatus is inverted into position, and the mass or bubble potometer with a capillary tube and a syringe-type reservoir for resetting the bubble.\n\n### Setting up so the results mean anything\n\nThe shoot must be cut underwater so that no air enters the xylem and creates an air lock.\n\nAll joints are sealed with petroleum jelly or grease so that no water can leak out and none can evaporate from somewhere other than the leaves.\n\nThe apparatus is checked for leaks before starting, the bubble is reset to a zero mark using the reservoir tap, and the shoot is left for a few minutes in the conditions being tested so that its stomata adjust before readings begin.\n\nReadings of bubble position are taken at fixed intervals and converted into a mean rate for each set of conditions.\n\n### What the apparatus does not measure\n\nWater uptake and water loss are not identical, so a potometer is an **estimate** rather than a direct measurement.\n\nA small proportion of the absorbed water is retained for photosynthesis, for building new cells and for maintaining turgidity.\n\nThe measurement is also vulnerable to any leak, to water evaporating from the cut end or from an imperfect seal, and to a sudden drop in uptake when an air bubble reaches the shoot or when an air lock forms.\n\n\n\n### Alternative methods\n\nThe most direct approach is to weigh the whole potted plant at intervals and subtract the mass of water added;\n\nWrapping the pot and soil in plastic keeps evaporation from the soil out of the measurement.\n\nA simpler classroom comparison is to weigh two similar leaves, one coated with petroleum jelly on its upper surface and one on its lower surface, and record the mass lost over a set period, which also demonstrates the uneven distribution of stomata.\n\nLeaf porometers and infrared gas analysers measure the water vapour leaving an intact leaf directly and are used when a potometer's assumptions would be unacceptable.\n\n### Reporting the Numbers an Examiner Wants\n\nConvert the bubble position into a distance, the distance into a rate, and keep the units given in the question, usually millimetres per minute or cubic millimetres per minute.\n\nA rate expressed per unit leaf area is the fairest comparison between two shoots and is often the mark that separates a full answer.\n\n### Choosing the Plant Material\n\nHerbaceous shoots with thin, broad leaves give brisk and repeatable readings because they carry many exposed stomata.\n\nEvergreen leaves with a thick cuticle respond slowly, and a shoot with only two or three leaves moves the bubble so little that the readings carry too much error to be useful.\n\n### Why the Shoot Is Weighed as Well\n\nRecording the fresh mass of the shoot lets the rate be divided by mass or by leaf area, which is the standardisation examiners look for in a planning question.\n\nIt also reveals a shoot that had already wilted before the experiment began, because a light shoot takes up water too slowly to give usable readings.",
         "groups": [
           {
@@ -3110,7 +3139,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain why a plant wilts on a hot, windy day. [3]"
-        ]
+        ],
+        "figure": "![Wilting & Flaccidity in Plant Cells](/notes/biology/bio-013-osmosis-plant-cells.jpg)"
       }
     ]
   },
@@ -3173,7 +3203,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Distinguish between a source and a sink, giving one example of each. [2]",
           "Describe the evidence for translocation obtained from aphid mouthparts. [3]",
           "Compare the movement of substances in xylem with the movement of substances in phloem in terms of substance, direction, tissue state and driving mechanism. [4]"
-        ]
+        ],
+        "figure": "![Translocation of Sucrose & Amino Acids](/notes/biology/ch08-stem-cross-section.webp)"
       }
     ]
   },
@@ -3232,7 +3263,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "State two ways in which a closed circulatory system differs from an open one. [2]",
           "Explain the advantage to a mammal of having the pulmonary and systemic circuits kept separate. [3]",
           "Name the two vessels that carry blood to and from the lungs, and state the oxygen content of the blood in each. [4]"
-        ]
+        ],
+        "figure": "![Circulatory Systems: Single vs Double](/notes/biology/ch09-human-heart.webp)"
       }
     ]
   },
@@ -3328,7 +3360,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Describe the events occurring during ventricular systole in the human heart. [3]"
-        ]
+        ],
+        "figure": "![Cardiac Cycle & Heartbeat](/notes/biology/ch09-human-heart.webp)"
       }
     ]
   },
@@ -3351,7 +3384,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain why heart rate remains elevated for a period of time following intense sprint exercise. [3]"
-        ]
+        ],
+        "figure": "![Heart Rate Monitoring & Effects of Exercise](/notes/biology/ch09-human-heart.webp)"
       }
     ]
   },
@@ -3416,7 +3450,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Describe how a buildup of fatty material in a coronary artery can lead to a heart attack. [5]",
           "Explain how the differences between angina and a myocardial infarction can be recognised in a patient. [3]",
           "Discuss two lifestyle factors that increase the risk of coronary heart disease, and explain the mechanism for each. [6]"
-        ]
+        ],
+        "figure": "![Coronary Heart Disease (CHD) Causes](/notes/biology/ch09-artery-vein.webp)"
       }
     ]
   },
@@ -3440,7 +3475,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Describe how a stent is used to treat coronary heart disease. [2]",
           "Explain two lifestyle modifications that decrease the risk of myocardial infarction. [2]"
-        ]
+        ],
+        "figure": "![Preventing & Treating CHD](/notes/biology/ch09-artery-vein.webp)"
       }
     ]
   },
@@ -3453,7 +3489,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Arteries, Veins and Capillaries",
-        "figure": "",
+        "figure": "![Arteries: Structure & Function](/notes/biology/ch09-artery-vein.webp)",
         "body": "### The three vessel types, and the logic behind them\n\nA vessel's structure tells you what pressure it carries and what job it does.\n\nArteries take blood **away from the heart** at high pressure, so they need thick walls with plenty of elastic fibre and smooth muscle, and a small, round lumen that keeps the blood moving under pressure.\n\nVeins return blood **to the heart** at low pressure after most of the energy has been lost through the capillaries, so their walls are thin, their lumen is wide and flat, and their one-way valves, together with the squeezing action of skeletal muscles, are what move the blood upward against gravity.\n\nCapillaries are the exchange vessels: only endothelium, one cell thick, with gaps between cells, so their whole design is about minimising diffusion distance and maximising time in contact.\n\n\n\n### The route blood takes\n\nVentricle → **artery** → **arteriole** (a narrower branch with more muscle, used to redirect flow to particular organs) → **capillary bed** (an exchange network between a small artery and a small vein) → **venule** → **vein** → atrium.\n\nBlood pressure is highest in the aorta during ventricular systole and lowest in the vena cava as it enters the heart.\n\nFlow velocity is fastest in the arteries and slowest in the capillaries, because the total cross-sectional area of all the capillaries together is far larger than that of an artery of the same generation.\n\n### Reading the pressure and flow graphs\n| Measurement | Where it is highest | Why |\n| --- | --- | --- |\n| Blood pressure | Aorta and large arteries | Directly driven by ventricular systole; falls along the circuit as energy is lost |\n| Total cross-sectional area | Capillaries | Vast numbers of tiny vessels add up |\n| Velocity of flow | Aorta | Same volume of blood forced through a small total area |\n| Slowest flow | Capillaries | Largest total area, giving maximum time for diffusion |\n\n### Tissue-level control\n\nArterioles in a region can dilate while others constrict, so exercising muscle receives more flow and the gut receives less.\n\nVeins hold the majority of the blood volume at any moment and act as a reserve that can be mobilised by vasoconstriction when blood is needed elsewhere, for example during exercise or blood loss.\n\n### Capillary Beds Are Gates, Not Plain Pipes\n\nEach bed is fed through a **pre-capillary sphincter**, a ring of muscle that relaxes or contracts according to the local demand for oxygen and nutrients.\n\nSphincters in an active muscle open and its bed fills, while those in a quiet region stay closed, so flow follows need rather than anatomy.\n\n### The Special Cases to Name\n\nThe **renal artery and vein** serve the kidney, where a second capillary network lies between the glomerulus and the nephron, so blood passes through two sets of capillaries before returning to the heart.\n\nThe **hepatic portal vein** is the other favourite exception:\n\nIt carries blood from the gut to the liver rather than to the heart, so nutrients absorbed at the intestine are taken to that organ first.\n\n### Why Standing Still Makes the Feet Swell\n\nBlood in the leg veins must climb back to the heart against gravity at a pressure far too low to push it up by itself.\n\nWith no calf muscle action to squeeze the veins, fluid filters out of the capillaries faster than the lymph can drain it, and the ankles puff up.",
         "groups": [
           {
@@ -3528,7 +3564,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain how the structure of a vein is adapted to transport blood back to the heart under low pressure. [3]"
-        ]
+        ],
+        "figure": "![Veins: Structure & Function](/notes/biology/ch09-artery-vein.webp)"
       }
     ]
   },
@@ -3551,7 +3588,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain how capillary walls are adapted to facilitate diffusion. [2]"
-        ]
+        ],
+        "figure": "![Capillaries: Structure & Exchange](/notes/biology/ch09-artery-vein.webp)"
       }
     ]
   },
@@ -3574,7 +3612,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Construct a table comparing the lumen size, wall thickness, and presence of valves in arteries and veins. [3]"
-        ]
+        ],
+        "figure": "![Comparing Blood Vessels](/notes/biology/ch09-artery-vein.webp)"
       }
     ]
   },
@@ -3588,7 +3627,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Blood: Plasma, Cells and Platelets",
         "body": "Blood is a **connective tissue** made of cells suspended in a liquid matrix.\n\nAfter a sample is centrifuged it separates into layers: pale yellow **plasma** on top, a thin whitish band of **white cells and platelets**, and dark red **packed red cells** below.\n\nThe red cell fraction is the haematocrit, and it rises when a person is dehydrated or living at altitude.\n\n### Plasma\n\nPlasma is about nine parts water to one part dissolved substance.\n\nIt carries the proteins albumin, the clotting protein fibrinogen and the antibodies, plus nutrients absorbed from the intestine, waste products from tissues, respiratory gases, hormones, and the heat generated by metabolism.\n\nBecause it can be donated as plasma, group by group, it is the blood component used most often in burns treatment.\n\n### Red cells (erythrocytes)\nRed cells are the transport specialists, and their adaptations are among the most reliably examined in this chapter:\n\n### Red cells (erythrocytes)\nNo nucleus, no mitochondria and no other organelles, so nothing competes for space or consumes the oxygen being carried;\n\n### Red cells (erythrocytes)\nA biconcave disc giving a large surface area to volume ratio for fast diffusion;\n\n### Red cells (erythrocytes)\nA flexible, tough membrane that can squeeze through narrow capillaries;\n\n### Red cells (erythrocytes)\nAnd cytoplasm packed with the iron-containing pigment **haemoglobin**, which combines reversibly with oxygen to form oxyhaemoglobin in the lungs and releases it where the partial pressure of oxygen is low.\n\n### White cells (leucocytes)\n\nThe two groups taught at this level are **phagocytes** and **lymphocytes**.\n\nPhagocytes have a lobed or irregular nucleus and granular cytoplasm; they engulf pathogens by **phagocytosis**, digest them with enzymes, and also clear away dead cells and debris.\n\nLymphocytes have a large, round nucleus and little cytoplasm; some of them make **antibodies** against specific antigens, and others become the memory cells that respond to a second encounter.\n\nBoth kinds leave the blood to work in the tissues, squeezing through capillary walls.\n\n### Platelets\n\nPlatelets are not cells but fragments of cytoplasm from large bone-marrow cells.\n\nThey carry the enzymes and protein factors needed for the clotting cascade:\n\nWhen a vessel is damaged they aggregate at the site, stick to exposed fibres and initiate the conversion of soluble **fibrinogen** into insoluble **fibrin**, whose mesh traps blood cells and forms the clot, sealing the wound while the dissolved substances inside the blood stay in the circulation.\n\n### Reading a Centrifuged Tube\n\nA spun sample shows three bands whose heights are used as evidence: plasma on top, a thin whitish layer of white cells and platelets, and packed red cells below.\n\nThe red cell fraction is the haematocrit, and it is higher in a dehydrated person or in one living at altitude.\n\n### All the Cells Come From One Tissue\n\nThe blood cells develop from dividing cells in **red bone marrow**, and a maturing red cell loses its nucleus as it does so.\n\nA marrow damaged by radiation therefore stops replacing all three cell types at once, which is why such a patient becomes anaemic, infection-prone and unable to clot.\n\n### Differential Counts and What They Suggest\n\nA blood film reports the proportions of each white cell type, and a raised count of phagocytes points to an acute bacterial infection while a raised lymphocyte count suggests a viral one.\n\nThe haemoglobin estimate is the routine screening value for anaemia, and a low one explains tiredness and breathlessness.\n\n### Plasma as a Donation\nPlasma can be frozen and kept far longer than whole blood, and because its antibodies are not tied to a cell type it is used for burns, for shock and for patients missing a clotting factor.\n\n| Component | Made in | Key structural feature | Main functions |\n| --- | --- | --- | --- |\n| Plasma | the liquid matrix of blood | water with proteins, solutes and wastes | transports nutrients, hormones, urea, CO2, antibodies, heat; maintains blood volume |\n| Red cell | red bone marrow | no nucleus, no mitochondria, biconcave, full of haemoglobin | transports oxygen; carries some carbon dioxide |\n| Phagocyte | red bone marrow | flexible shape, lobed nucleus, digestive enzymes | engulfs and digests pathogens and debris |\n| Lymphocyte | red bone marrow and lymph nodes | large round nucleus, minimal cytoplasm | produces antibodies; forms memory cells |\n| Platelet | bone marrow fragments | small, no nucleus | releases enzymes for blood clotting |",
-        "figure": "",
+        "figure": "![Components of Blood](/notes/biology/ch09-blood-cells.webp)",
         "groups": [
           {
             "subTitle": "Haemoglobin and Gas Transport",
@@ -3661,7 +3700,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "State two structural adaptations of red blood cells and explain how each aids oxygen transport. [4]"
-        ]
+        ],
+        "figure": "![Red Blood Cells & Haemoglobin](/notes/biology/ch09-blood-cells.webp)"
       }
     ]
   },
@@ -3685,7 +3725,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Describe how a phagocyte destroys an invading bacterium. [3]",
           "Explain the role of lymphocytes in the secondary immune response. [3]"
-        ]
+        ],
+        "figure": "![White Blood Cells: Phagocytes & Lymphocytes](/notes/biology/ch10-phagocytosis.webp)"
       }
     ]
   },
@@ -3709,7 +3750,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Outline the chemical steps involved in the formation of a blood clot. [3]",
           "State two reasons why blood clotting is essential following tissue injury. [2]"
-        ]
+        ],
+        "figure": "![Blood Clotting & Platelets](/notes/biology/ch09-blood-clot.webp)"
       }
     ]
   },
@@ -3772,7 +3814,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "State two ways in which tissue fluid differs in composition from blood plasma. [2]",
           "Explain the role of the lymphatic system in returning fluid to the blood. [3]",
           "Suggest and explain one cause of swelling in the tissues of a person whose lymphatic vessels are blocked. [3]"
-        ]
+        ],
+        "figure": "![Tissue Fluid & Lymphatic System](/notes/biology/ch09-blood-cells.webp)"
       }
     ]
   },
@@ -3795,7 +3838,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain why a person with blood group O can donate blood to any ABO recipient. [2]"
-        ]
+        ],
+        "figure": "![Blood Groups & Transfusions](/notes/biology/ch09-blood-cells.webp)"
       }
     ]
   },
@@ -3818,7 +3862,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Calculate cardiac output when heart rate is 80 bpm and stroke volume is 75 ml. [2]"
-        ]
+        ],
+        "figure": "![Cardiovascular Health: Summary & Calculations](/notes/biology/ch09-human-heart.webp)"
       }
     ]
   },
@@ -3832,7 +3877,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "What Causes Disease",
         "body": "### Disease, infection and pathogen are three different words\nA **pathogen** is any microorganism or parasite that can cause disease.\n\n**Infection** means it has entered, is present and is multiplying;\n\n**disease** is the damage that upsets normal function so symptoms appear.\n\n> Infection is the pathogen multiplying; disease is the damage it does.",
-        "figure": "",
+        "figure": "![Pathogens & Transmission](/notes/biology/ch10-mosquito-malaria.webp)",
         "groups": [
           {
             "subTitle": "The Five Pathogen Groups",
@@ -3996,7 +4041,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Human Defences Against Pathogens",
         "body": "### Three lines of defence\nThe body stops pathogens in three stages:\n\n**barriers**, then **non-specific phagocytes**, then a **specific lymphocyte response**.\n\n> Barriers keep pathogens out, phagocytes eat anything that gets in, and lymphocytes remember the one they are built to fight.",
-        "figure": "\n\n",
+        "figure": "![Body Defences Against Pathogens](/notes/biology/ch10-skin-barrier.webp)",
         "groups": [
           {
             "subTitle": "The Barriers and What Each One Does",
@@ -4077,7 +4122,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Distinguish between an antigen and an antibody. [2]",
           "Describe two ways antibodies help destroy bacterial pathogens. [2]"
-        ]
+        ],
+        "figure": "![The Immune System & Antibodies](/notes/biology/ch10-antibodies.webp)"
       }
     ]
   },
@@ -4100,7 +4146,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Compare active and passive immunity in terms of duration of protection and memory cell production. [4]"
-        ]
+        ],
+        "figure": "![Active vs Passive Immunity](/notes/biology/ch10-antibodies.webp)"
       }
     ]
   },
@@ -4114,7 +4161,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Vaccination and Immunity",
         "body": "### Vaccination and the faster second response\nA **vaccine** contains a harmless form of a pathogen or its antigen, so the lymphocytes mount a **primary response** and form ==memory cells== without the person suffering the disease. On a later infection those cells drive a **secondary response** that is **faster, stronger and longer-lasting**.",
-        "figure": "\n\n",
+        "figure": "![Vaccination & Herd Immunity](/notes/biology/ch10-antibodies.webp)",
         "groups": [
           {
             "subTitle": "Why Antibiotics Fail Against Viruses",
@@ -4192,7 +4239,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Explain why antibiotics are ineffective against viral infections such as influenza. [2]",
           "Outline how misuse of antibiotics leads to antibiotic-resistant bacterial strains. [4]"
-        ]
+        ],
+        "figure": "![Antibiotics & Antibiotic Resistance](/notes/biology/ch18-resistant-bacteria.webp)"
       }
     ]
   },
@@ -4249,7 +4297,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Describe two lifestyle risk factors and the disease each one raises the risk of. [4]",
           "Explain two ways in which malaria affects the economy of an affected country. [4]",
           "Explain two ways in which HIV/AIDS reduces the output of an affected country. [4]"
-        ]
+        ],
+        "figure": "![Controlling Disease Spread & Hygiene](/notes/biology/ch10-skin-barrier.webp)"
       }
     ]
   },
@@ -4273,7 +4322,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Explain how HIV impairs the human immune response. [3]",
           "State two methods for reducing the transmission of HIV. [2]"
-        ]
+        ],
+        "figure": "![Autoimmune Diseases & HIV/AIDS](/notes/biology/ch10-antibodies.webp)"
       }
     ]
   },
@@ -4356,7 +4406,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain the importance of cartilage rings in the mammalian trachea. [2]"
-        ]
+        ],
+        "figure": "![Cartilage in Trachea & Bronchi](/notes/biology/ch11-human-lungs.webp)"
       }
     ]
   },
@@ -4379,7 +4430,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Describe how goblet cells and cilia protect the gas exchange system from pathogens. [3]"
-        ]
+        ],
+        "figure": "![Cilia & Goblet Cells](/notes/biology/ch11-human-lungs.webp)"
       }
     ]
   },
@@ -4392,7 +4444,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Ventilation: How Air Moves In and Out",
-        "figure": "",
+        "figure": "![Mechanism of Ventilation: Inhalation](/notes/biology/ch11-breathing-muscles.webp)",
         "body": "### Pressure Does the Work, Muscles Change the Pressure\n\n**Ventilation is the movement of air into and out of the lungs.\n\nIt is a mechanical process driven by one rule: a gas flows from a region of higher pressure to a region of lower pressure.\n\nAir therefore moves into the lungs only when the pressure inside the alveoli falls **below** atmospheric pressure, and it moves out only when the pressure inside rises **above** atmospheric pressure.\n\nThe body changes that pressure by changing the volume of the thoracic cavity, using the intercostal muscles and the diaphragm.\n\n\n\nDuring **inhalation** the external intercostal muscles contract, pulling the ribs upwards and outwards, and the diaphragm contracts so that its domed muscle flattens and moves downwards.\n\nBoth actions increase the volume of the thoracic cavity, the lungs are stretched open, the pressure of the air inside them drops below that of the atmosphere, and air rushes in.\n\nDuring quiet **exhalation** the reverse happens without any contraction at all:\n\nThe intercostal muscles and the diaphragm relax, the elastic recoil of the lungs and the weight of the ribs reduce the volume, pressure rises above atmospheric, and air is forced out.\n\nBecause normal exhalation is passive, it costs no energy at rest.\n\n**Forced exhalation** is active. The internal intercostal muscles pull the ribs down and in, and the abdominal muscles contract, pushing the abdominal organs upwards against the diaphragm.\n\nThis is the mechanism behind coughing, sneezing, blowing and singing.\n\n### The Chain That Carries the Marks\nWrite the sequence in one sentence:\n\n### The Chain That Carries the Marks\nMuscle state, then volume, then pressure, then air movement. 'The diaphragm contracts and flattens, so the volume of the cavity increases, so the pressure in the lungs falls below atmospheric, so air flows in' contains every mark a five-mark question offers.\n\n### Small Pressure Changes Move a Breath\n\nThe pressure inside the alveoli needs to differ from the atmosphere by only a little, because air flows easily through the wide, open airways.\n\nThe muscles are working mainly against the elastic pull of the lung tissue and the weight of the rib cage, not against any resistance from the air itself.\n\n### Why the Lungs Never Empty\n\nEven the hardest possible out-breath leaves air behind in the lungs, so the alveoli always contain some oxygen and diffusion into the blood continues between breaths.\n\nIt is also why stale air and fresh air mix in each inhalation, and why alveolar air is not the same thing as atmospheric air.",
         "groups": [
           {
@@ -4467,7 +4519,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Describe the role of the diaphragm and intercostal muscles in exhalation at rest. [3]"
-        ]
+        ],
+        "figure": "![Mechanism of Ventilation: Exhalation](/notes/biology/ch11-ribcage.webp)"
       }
     ]
   },
@@ -4530,7 +4583,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Describe and name the result of a test used to show that expired air contains more carbon dioxide than inspired air. [3]",
           "Suggest why expired air still contains about 16% oxygen. [2]",
           "Describe how you would use limewater to compare the carbon dioxide content of inspired and expired air, naming one control you would keep. [4]"
-        ]
+        ],
+        "figure": "![Composition of Inspired vs Expired Air](/notes/biology/ch11-human-lungs.webp)"
       }
     ]
   },
@@ -4553,7 +4607,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Describe an experiment to demonstrate that exhaled air contains more carbon dioxide than inhaled air. [3]"
-        ]
+        ],
+        "figure": "![Testing for Carbon Dioxide with Limewater](/notes/biology/ch12-respirometer.webp)"
       }
     ]
   },
@@ -4567,7 +4622,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "The Alveolus and Gas Exchange",
         "body": "### A Diffusion Surface Built to Order\n\nEvery exchange surface in the syllabus obeys the same design rules: a **large surface area**, a **thin barrier**, a **moist surface**, a **good blood supply**, and **ventilation** to keep the gradient steep.\n\nThe alveolus is the model answer.\n\n\n\nOxygen moves from the alveolar air into the plasma and then into the red blood cells, where it combines with haemoglobin to form **oxyhaemoglobin**.\n\nCarbon dioxide travels the opposite way, from the blood into the alveolar air to be breathed out.\n\nBoth movements are **diffusion only** — no energy from respiration is used at the alveolus, because each gas simply travels down its own concentration gradient.\n\nBlood arriving at the lung has just returned from the respiring tissues, so it is low in oxygen and high in carbon dioxide;\n\nThe alveolar air has just been replaced by ventilation and is rich in oxygen and poor in carbon dioxide.\n\nBoth gradients point the correct way, and both are continuously renewed.\n\nRenewal is the reason ventilation matters.\n\nIf breathing stopped, the alveolar oxygen would be used up within moments, the gradient would collapse, and diffusion would halt — even though the membranes were still thin and the blood still flowing.\n\nThis is why a description of alveolar adaptation that omits ventilation or capillary flow loses marks: the structure alone is not enough, the flow of both media is part of the adaptation.\n\n### The Barrier in Terms of Cells\n\nThe alveolar wall and the capillary wall are each a single flattened cell pressed against the other, so the route from air to red cell is a fraction of the width of a hair.\n\nOn the way, a gas molecule also crosses a moist surface film and the plasma before it reaches the haemoglobin inside the red cell.\n\n### Surfactant and the Problem of Small Sacs\n\nThe fluid lining an alveolus pulls inward with a surface tension that would tend to collapse the smallest sacs.\n\nThe lining secretes **surfactant**, which lowers that tension, so the sacs stay inflated and the chest does not have to work excessively hard to reopen them with every breath.\n\n### Why the Blood Is the Other Half of the Story\n\nA stationary column of plasma next to a thin membrane would reach equilibrium with alveolar air within seconds and exchange would stop.\n\nContinuous flow of blood, carrying oxygen away and bringing carbon dioxide back, is therefore listed as an adaptation of the exchange surface rather than as a separate system.",
-        "figure": "",
+        "figure": "![Gas Exchange at the Alveolus](/notes/biology/ch11-alveolus.webp)",
         "groups": [
           {
             "subTitle": "Adaptations of the Alveolus, Fully Explained",
@@ -4641,7 +4696,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain how the structure of an alveolus maximizes the rate of gas diffusion. [4]"
-        ]
+        ],
+        "figure": "![Adaptations of Alveoli for Gas Exchange](/notes/biology/ch11-alveolus.webp)"
       }
     ]
   },
@@ -4664,7 +4720,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain what stimulates the increase in breathing rate during vigorous exercise. [3]"
-        ]
+        ],
+        "figure": "![Effects of Exercise on Breathing](/notes/biology/ch11-breathing-muscles.webp)"
       }
     ]
   },
@@ -4727,7 +4784,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain how damage to the cilia of the trachea leads to chest infections in a smoker. [4]",
           "Explain why a person with emphysema becomes breathless on exercising. [4]",
           "Describe how carbon monoxide in smoke reduces the oxygen available to the muscles. [3]"
-        ]
+        ],
+        "figure": "![Smoking, Tar & Respiratory Diseases](/notes/biology/ch15-smoking-lungs.webp)"
       }
     ]
   },
@@ -4741,7 +4799,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Respiration Compared with Breathing",
         "body": "### Respiration Is Chemistry, Not a Lung Action\n\n**Respiration is the set of chemical reactions in the cells of living organisms that break down nutrient molecules, mainly glucose, to release energy for metabolism.\n\nIt happens in **every living cell, all the time**, and its product is **energy**, not air.\n\n> Breathing supplies the oxygen; respiration uses it and releases the energy in return.",
-        "figure": "",
+        "figure": "![Respiration vs Breathing & ATP Concept](/notes/biology/ch12-mitochondrion.webp)",
         "groups": [
           {
             "subTitle": "The Places the Energy Goes",
@@ -4800,7 +4858,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Aerobic Respiration",
         "body": "### The Complete Breakdown of Glucose\n\n**Aerobic respiration is the release of energy from glucose by its reaction with oxygen, giving carbon dioxide and water as products.\n\nWritten as a balanced equation, and worth learning exactly, it is:\n\n> **C6H12O6 + 6O2 → 6CO2 + 6H2O** (with energy released)",
-        "figure": "",
+        "figure": "![Aerobic Respiration](/notes/biology/ch12-mitochondrion.webp)",
         "groups": [
           {
             "subTitle": "The Equation and Its Substrate",
@@ -4869,7 +4927,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Anaerobic Respiration",
         "body": "### When Oxygen Runs Out\n\n**Anaerobic respiration is the release of energy from glucose without oxygen, in which the glucose is broken down only partially and gives far less energy.\n\nIn yeast and plants the products are ethanol and carbon dioxide, and this route is called **fermentation**:\n\n> **glucose → ethanol + carbon dioxide (+ energy)**",
-        "figure": "",
+        "figure": "![Anaerobic Respiration: Muscles vs Yeast & Oxygen Debt](/notes/biology/ch12-yeast-fermentation.webp)",
         "groups": [
           {
             "subTitle": "In Animals: the Lactic Acid Route",
@@ -5036,7 +5094,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "What the Kidneys Do",
         "body": "### Excretion, defined\n\n**Excretion is the removal from the body of the toxic waste products made by the chemical reactions in cells.\n\nIt is not the same as getting rid of faeces, and that difference carries marks.\n\n### Egestion and secretion\n\n**Egestion** is the removal of undigested food as faeces; that material never entered a cell, so it was never a product of your metabolism.\n\n**Secretion** is the release of useful substances a cell has deliberately made, such as enzymes from a gland or hormones from an endocrine cell.\n\nExcretion throws away waste; secretion delivers something the body wants.\n\n### The three things that must be removed\n\nRespiration constantly produces **carbon dioxide**, which the lungs exhale.\n\nThe breakdown of excess amino acids in the liver produces **urea**, a nitrogenous waste carried in the blood and removed mainly by the kidneys.\n\n### Water and salts\nBecause you drink and eat salts unevenly, the body must also shed **excess water and excess salts** to keep the blood at a constant concentration. ==The kidneys handle urea and this water-and-salt balance at the same time.==\n\n### The kidney's two jobs\n\nEvery day the kidneys filter the entire volume of your blood many times over.\n\nThey do two related things: they **excrete** urea and excess salts into urine, and they **regulate** the water content of the blood, a process called **osmoregulation**.\n\n### Osmoregulation in one line\n\n**Osmoregulation is the control of the water content of the blood so its concentration stays constant.\n\nThe kidney does this by varying how much water is returned to the blood instead of lost in urine.\n\n### Blood in, blood out\n\nBlood reaches each kidney through the **renal artery** and leaves through the **renal vein**.\n\nBecause the nephrons strip out urea along the way, blood in the renal vein holds far less urea than blood in the renal artery.\n\n",
-        "figure": "",
+        "figure": "![Excretory Organs & Urea Formation](/notes/biology/ch13-urinary-system.webp)",
         "groups": [
           {
             "subTitle": "The Urinary System, Part by Part",
@@ -5249,7 +5307,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "State two differences between the composition of the fluid in the Bowman's capsule and the composition of urine. [4]",
           "Explain why reabsorption in the tubule is described as selective. [2]",
           "Explain why a person with uncontrolled diabetes mellitus can have glucose in the urine. [3]"
-        ]
+        ],
+        "figure": "![Selective Reabsorption & Dialysis vs Transplant](/notes/biology/ch13-dialysis.webp)"
       },
       {
         "title": "Urine, ADH and Osmoregulation",
@@ -5377,7 +5436,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "The Nervous System and the Neurone",
         "body": "### Two coordination systems\n\nAnimals coordinate their responses with two systems.\n\nThe **nervous system** uses electrical impulses and is fast and precise; the **hormone system** uses chemicals carried in the blood and is slower but longer-lasting.\n\n### The divisions of the nervous system\nThe nervous system has two parts. The **central nervous system (CNS)**, made of the brain and spinal cord, receives information and coordinates the response.\n\nThe **peripheral nervous system (PNS)** is all the nerves, which are bundles of axons running to and from the CNS.\n\n### The three kinds of neurone\n**Sensory neurones** carry impulses from receptors to the CNS. **Motor neurones** carry impulses from the CNS to effectors, and **relay (connector) neurones** link the two inside the CNS.\n\n### The structure of a motor neurone\n\nA motor neurone has **dendrites** that carry impulses into the **cell body**, which holds the nucleus.\n\nA long **axon**, often insulated by a **myelin sheath**, carries the impulse away and ends in **axon terminals** that release neurotransmitter.\n\n### The nerve impulse itself\n\nAn impulse is a wave of electrical charge passing along the axon, and it is an **all-or-nothing** event.\n\n**Myelin** makes impulses travel faster, and a single neurone carries the impulse in only one direction, from dendrite to axon terminal.\n\n> A **receptor** detects a stimulus and an **effector**, a muscle or gland, produces the response; a nerve is many axons bundled together, not a single cell.",
-        "figure": "\n\n",
+        "figure": "![Nervous vs Hormonal Control](/notes/biology/ch14-neurone.webp)",
         "groups": [
           {
             "subTitle": "The Two Divisions",
@@ -5450,7 +5509,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Draw and label the structural features of a motor neurone. [3]",
           "State the function of the myelin sheath in neurone transmission. [1]"
-        ]
+        ],
+        "figure": "![Structure of Neurons: Sensory, Relay & Motor](/notes/biology/ch14-neurone.webp)"
       }
     ]
   },
@@ -5464,7 +5524,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "The Synapse and the Reflex Arc",
         "body": "### The synapse, defined\n\nA **synapse** is the tiny gap between the axon terminal of one neurone and the dendrite of the next.\n\nThe electrical impulse cannot jump the gap, so the signal is re-started chemically.\n\n### How transmission across a synapse works\n\nWhen an impulse reaches the axon terminal, **vesicles** release a chemical **neurotransmitter** into the gap.\n\nThe transmitter **diffuses across the synaptic cleft** and binds to **receptor proteins** on the next cell, starting a new impulse there.\n\n### One-way and a little slower\n\nBecause transmitter only spills from the terminal onto the receptors of the next cell, synapses make impulses travel **one way only**.\n\nCrossing the gap takes a measurable fraction of a second, which is called **synaptic delay**.\n\n### The reflex arc\n\nThe **reflex arc** is the nerve pathway of a reflex, an automatic protective response that is not under conscious control.\n\nIt runs **receptor → sensory neurone → relay neurone → motor neurone → effector**.\n\n### Why reflexes are fast\n\nIn a reflex the centre of the response is the **spinal cord**, not the conscious brain, so the action happens before you are even aware of it.\n\nThe brain is informed only afterwards.\n\n> Reflexes are innate and protective: you do not have to learn them, and they cannot easily be stopped.",
-        "figure": "\n\n",
+        "figure": "![Reflex Arc & Reflex Actions](/notes/biology/ch14-reflex-hand.webp)",
         "groups": [
           {
             "subTitle": "Transmission Across a Synapse",
@@ -5538,7 +5598,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Explain how an impulse is transmitted across a synapse. [4]",
           "State two reasons why synapses are essential in the nervous system. [2]"
-        ]
+        ],
+        "figure": "![Synapses & Neurotransmitter Transmission](/notes/biology/ch14-neurone.webp)"
       }
     ]
   },
@@ -5551,7 +5612,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "The Eye and Vision",
-        "figure": "",
+        "figure": "![Structure of the Human Eye](/notes/biology/ch14-human-eye.webp)",
         "body": "### The eye as a sense organ\n\nThe eye is a sense organ that converts light into nerve impulses.\n\nLight passes through a series of structures before the **retina** detects it and the **optic nerve** carries the impulses to the brain.\n\n### The path of light\nLight first enters through the transparent **cornea**, which bends it inward. It then passes the **pupil**, the hole in the **iris**, and the **lens** before reaching the retina.\n\n### The iris and pupil\n\nThe **iris** is a ring of muscle that sets the size of the pupil and so controls how much light enters.\n\nIn bright light the pupil **constricts**; in dim light it **dilates**.\n\n### The retina, rods and cones\nThe **retina** is the light-sensitive layer carrying the photoreceptor cells. **Rods** detect dim light and give black-and-white vision, while **cones** need bright light and give **colour** and sharp detail.\n\n### Accommodation\n\n**Accommodation** is the change in lens shape that focuses an image on the retina.\n\nFor a near object the **ciliary muscles contract**, the **suspensory ligaments slacken**, and the lens becomes **thicker and more rounded**.\n\nFor a distant object the ciliary muscles relax, the ligaments tighten, and the lens becomes **thinner and flatter**.\n\n### The blind spot\nThe **blind spot** is where the optic nerve leaves the retina. It holds no light receptors, so an image falling there is not detected.",
         "groups": [
           {
@@ -5625,7 +5686,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Describe how the iris adjusts when a person moves from bright sunshine into a dark room. [3]"
-        ]
+        ],
+        "figure": "![Pupil Reflex: Dim vs Bright Light](/notes/biology/ch14-human-eye.webp)"
       }
     ]
   },
@@ -5648,7 +5710,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Describe how the eye adjusts to focus on an approaching book. [4]"
-        ]
+        ],
+        "figure": "![Accommodation of the Eye: Near vs Distant](/notes/biology/ch14-human-eye.webp)"
       }
     ]
   },
@@ -5687,7 +5750,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "| Feature | Nervous system | Endocrine (hormone) system |\n| --- | --- | --- |\n| Signal | Electrical impulses | Chemical messengers in blood |\n| Speed | Very fast | Slower |\n| Duration | Short-lived | Longer-lasting |\n| Target | Precise (a muscle or gland) | Widespread (any organ with receptors) |\n\n",
+        "figure": "![Hormones: Adrenaline & Endocrine System](/notes/biology/ch14-hormone-glands.webp)\n\n| Feature | Nervous system | Endocrine (hormone) system |\n| --- | --- | --- |\n| Signal | Electrical impulses | Chemical messengers in blood |\n| Speed | Very fast | Slower |\n| Duration | Short-lived | Longer-lasting |\n| Target | Precise (a muscle or gland) | Widespread (any organ with receptors) |\n\n",
         "examinerTips": [
           "Contrast nervous and hormonal coordination as **matched pairs**: fast against slow, brief against lasting, precise against widespread.",
           "For adrenaline, always **link each effect to a purpose** — more glucose and oxygen for the muscles about to work hard.",
@@ -5744,7 +5807,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "| Condition | Response | Effect on level |\n| --- | --- | --- |\n| Blood glucose too high | Pancreas releases insulin; liver converts glucose to glycogen | Glucose falls back to normal |\n| Blood glucose too low | Pancreas releases glucagon; liver breaks down glycogen | Glucose rises back to normal |\n| Body temperature too high | Vasodilation and sweating | Heat is lost |\n| Body temperature too low | Vasoconstriction and shivering | Heat is conserved and made |",
+        "figure": "![Homeostasis: Negative Feedback Principle](/notes/biology/ch14-hormone-glands.webp)\n\n| Condition | Response | Effect on level |\n| --- | --- | --- |\n| Blood glucose too high | Pancreas releases insulin; liver converts glucose to glycogen | Glucose falls back to normal |\n| Blood glucose too low | Pancreas releases glucagon; liver breaks down glycogen | Glucose rises back to normal |\n| Body temperature too high | Vasodilation and sweating | Heat is lost |\n| Body temperature too low | Vasoconstriction and shivering | Heat is conserved and made |",
         "examinerTips": [
           "Always name the organ that **detects** the change and the organ that **corrects** it, then state the direction of the correction.",
           "Use the phrase **negative feedback** and explain it: the response reverses the original change and so switches off the stimulus.",
@@ -5785,7 +5848,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain how vasodilation and sweating cool the human body during physical exertion. [4]"
-        ]
+        ],
+        "figure": "![Thermoregulation: Skin Mechanisms](/notes/biology/ch14-hormone-glands.webp)"
       }
     ]
   },
@@ -5831,7 +5895,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "",
+        "figure": "![Tropic Responses in Plants (Auxins)](/notes/biology/ch06-whole-plant.webp)",
         "examinerTips": [
           "State where auxin is **made**, how it **redistributes**, and the effect on each side; then finish with 'bends' plus the direction.",
           "For roots, remember the reversal: the side with **more auxin grows less**, so the root bends toward gravity and away from light.",
@@ -5887,7 +5951,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "",
+        "figure": "![Medicinal Drugs, Antibiotics, Alcohol & Heroin Misuse](/notes/biology/ch15-smoking-alcohol.webp)",
         "examinerTips": [
           "Give the definition as a chain: a chemical taken into the body that changes the body's **chemistry** and hence its **functioning**.",
           "Sort any named drug by its **effect** — slows, speeds, or kills pain — before you describe what it does.",
@@ -6209,7 +6273,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "| Feature | Sexual reproduction | Asexual reproduction |\n| --- | --- | --- |\n| Number of parents | Two | One |\n| Gametes involved | Yes, they fuse | No |\n| Offspring | Genetically different | Genetically identical |\n| Speed / energy | Slower; needs a mate | Fast; no mate needed |\n| Variation | High, so better chance of surviving change | Low, so a disease can wipe out all |\n\n",
+        "figure": "![Asexual vs Sexual Reproduction](/notes/biology/ch16-fertilisation.webp)\n\n| Feature | Sexual reproduction | Asexual reproduction |\n| --- | --- | --- |\n| Number of parents | Two | One |\n| Gametes involved | Yes, they fuse | No |\n| Offspring | Genetically different | Genetically identical |\n| Speed / energy | Slower; needs a mate | Fast; no mate needed |\n| Variation | High, so better chance of surviving change | Low, so a disease can wipe out all |\n\n",
         "examinerTips": [
           "Anchor the sexual definition on the words **'fusion of gametes'** and **'genetic variation'**.",
           "When comparing, give **matched pairs** (parents, gametes, offspring variation) rather than describing each in isolation.",
@@ -6251,7 +6315,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Compare the structural features of insect-pollinated and wind-pollinated flowers. [4]",
           "Describe the events occurring between pollination and seed formation. [4]"
-        ]
+        ],
+        "figure": "![Flower Structure, Pollination & Fertilisation](/notes/biology/ch16-flower-cross-section.webp)"
       }
     ]
   },
@@ -6274,7 +6339,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "State three environmental conditions required for seed germination and explain the importance of each. [6]"
-        ]
+        ],
+        "figure": "![Seed Germination Requirements](/notes/biology/ch12-germinating-seeds.webp)"
       }
     ]
   },
@@ -6321,7 +6387,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "",
+        "figure": "![Male & Female Reproductive Anatomy](/notes/biology/ch16-fertilisation.webp)",
         "examinerTips": [
           "Label the sperm **head, midpiece and tail**, and name the **acrosome** and **mitochondria**, when structure is asked for.",
           "State the site of fertilisation as the **oviduct**, not the uterus; this is a very common mark.",
@@ -6384,7 +6450,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "",
+        "figure": "![The Menstrual Cycle & Hormones](/notes/biology/ch16-uterus-baby.webp)",
         "examinerTips": [
           "Name each hormone with its **source organ** and its **single main action**; this is exactly what these questions mark.",
           "Read cycle graphs for the hormone peaks and tie each to the event, such as the **LH peak matching ovulation on day 14**.",
@@ -6447,7 +6513,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "",
+        "figure": "![Fertilisation, Pregnancy & Placenta](/notes/biology/ch16-uterus-baby.webp)",
         "examinerTips": [
           "Keep **fertilisation (in the oviduct)** and **implantation (in the uterine wall)** as two distinct events with two distinct sites.",
           "For the placenta, say **'exchange'** and list what moves: oxygen and nutrients one way, carbon dioxide and urea the other.",
@@ -6577,7 +6643,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Chromosomes, Genes and Alleles",
         "body": "### The Storage System\nIn the nucleus of a human body cell there are **46 chromosomes, arranged as 23 homologous pairs** — one member of each pair from the mother, one from the father.\n\nGametes carry only one of each pair, so a sperm or an egg has 23 unpaired chromosomes.\n\n### Genes and Alleles\n\nA gene is a section of DNA that codes for a protein, and it sits at a fixed position (locus) on a chromosome.\n\nBecause chromosomes come in pairs, genes also come in pairs, and the two copies of a gene may be different versions of it.\n\nThose versions are alleles. Two alleles of the same gene have slightly different base sequences, which can change the coded protein and so change the phenotype.\n\n",
-        "figure": "\n\n",
+        "figure": "![Chromosomes, Genes, DNA & Genetic Code](/notes/biology/ch17-dna-helix.webp)",
         "groups": [
           {
             "bullets": [
@@ -6646,7 +6712,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Distinguish between a haploid nucleus and a diploid nucleus, citing human examples of each. [3]"
-        ]
+        ],
+        "figure": "![Haploid vs Diploid Nuclei](/notes/biology/ch17-mitosis-meiosis.webp)"
       }
     ]
   },
@@ -6669,7 +6736,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "State three biological roles of mitosis. [3]"
-        ]
+        ],
+        "figure": "![Mitosis: Nuclear Division for Growth & Repair](/notes/biology/ch17-mitosis-meiosis.webp)"
       }
     ]
   },
@@ -6692,7 +6760,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Compare mitosis and meiosis in terms of location, number of daughter cells, chromosome number, and genetic variation. [4]"
-        ]
+        ],
+        "figure": "![Meiosis: Reduction Division Producing Gametes](/notes/biology/ch17-mitosis-meiosis.webp)"
       }
     ]
   },
@@ -6753,7 +6822,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "State the genotypic ratio from a Tt x Tt cross. [1]",
           "Explain why a 3 : 1 ratio may not be seen exactly in a family of four offspring. [2]",
           "In guinea pigs, black coat (B) is dominant to white (b). Use a genetic diagram to find the phenotype ratio of the offspring from two Bb animals. [4]"
-        ]
+        ],
+        "figure": "![Monohybrid Crosses & Punnett Squares](/notes/biology/ch17-inheritance-cats.webp)"
       }
     ]
   },
@@ -6812,7 +6882,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain how two parents with the dominant phenotype can produce offspring with the recessive phenotype. [3]",
           "Distinguish between homozygous and heterozygous. [2]",
           "In peas, purple flowers (P) are dominant to white (p). Give the phenotype of a Pp plant and the genotype of a white-flowered plant. [2]"
-        ]
+        ],
+        "figure": "![Genotype, Phenotype, Alleles & Dominance](/notes/biology/ch17-inheritance-cats.webp)"
       },
       {
         "title": "Genotype and Phenotype",
@@ -6887,7 +6958,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "A mother of blood group A and a father of blood group B have a child of blood group O. Deduce the genotypes of the parents and child. [3]"
-        ]
+        ],
+        "figure": "![Codominance & ABO Blood Groups](/notes/biology/ch09-blood-cells.webp)"
       }
     ]
   },
@@ -6900,7 +6972,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Sex Determination",
-        "figure": "",
+        "figure": "![Sex Determination (XX vs XY)](/notes/biology/ch17-sex-chromosomes.webp)",
         "body": "### The chromosomes that decide sex\nHumans have 22 pairs of **autosomes** plus one pair of **sex chromosomes**. Females are **XX**, males are **XY**.\n\nThe Y chromosome is much shorter than the X and carries few genes, so the two chromosomes of this pair are not fully homologous.\n\nA child's sex is fixed at fertilisation by whichever sex chromosome the sperm contributed.\n\n### Why the father decides\n\nAn egg can contribute only an X, because that is the only sex chromosome a mother has to give.\n\nA sperm contributes either an X or a Y, so it is the sperm that settles whether the zygote will be XX or XY.\n\n### A ratio of chances\n\nX-bearing and Y-bearing sperm are produced in equal numbers and fuse with eggs at random.\n\nEach pregnancy is therefore an independent 50 : 50 event, which is why individual families vary but whole populations average out to 1 : 1.\n\n",
         "groups": [
           {
@@ -6971,7 +7043,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain why red-green colour blindness is significantly more prevalent in human males than females. [3]"
-        ]
+        ],
+        "figure": "![Sex-Linked Characteristics](/notes/biology/ch17-sex-chromosomes.webp)"
       }
     ]
   },
@@ -7031,7 +7104,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain how the graphs of continuous and discontinuous variation differ. [3]",
           "State whether adult height is continuous or discontinuous and give a reason. [2]",
           "Give two examples of discontinuous variation in humans and explain why each is discontinuous. [4]"
-        ]
+        ],
+        "figure": "![Continuous vs Discontinuous Variation](/notes/biology/ch18-dog-breeds.webp)"
       }
     ]
   },
@@ -7091,7 +7165,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain how crossing over during meiosis increases genetic variation. [3]",
           "Describe two ways in which meiosis produces genetically different gametes. [4]",
           "Explain why mutation is described as the only source of new alleles. [2]"
-        ]
+        ],
+        "figure": "![Sources of Genetic Variation (Mutation & Meiosis)](/notes/biology/ch17-mitosis-meiosis.webp)"
       }
     ]
   },
@@ -7115,7 +7190,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "State two adaptations of xerophytes that reduce water loss. [2]",
           "Explain why water lilies have stomata on the upper epidermis of their leaves. [2]"
-        ]
+        ],
+        "figure": "![Adaptive Features: Hydrophytes & Xerophytes](/notes/biology/ch18-giraffe-selection.webp)"
       }
     ]
   },
@@ -7129,7 +7205,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Natural Selection",
         "body": "### The selection sequence\n\nNatural selection is the non-random survival and reproduction of individuals whose alleles suit the environment.\n\nIt needs variation, a selection pressure, and time — and it acts on the **phenotype**, while the **genotype** is what is passed on.\n\n### Selection pressure defined\n\nA **selection pressure** is any feature of the environment that affects who survives to breed — predators, climate, food, disease or light.\n\nIt decides which phenotypes are favoured and which are removed.\n\n### Adaptation is the outcome\n\nWhen a favourable allele rises in frequency over generations, the population becomes **adapted** to its environment.\n\nAn adaptation is an inherited feature that improves survival and reproduction, not something acquired during one lifetime.\n\n### Nothing changes inside one animal\nSelection sorts the variation that already exists between individuals. No individual changes its alleles because it needs to; the shift happens across generations in the population.",
-        "figure": "",
+        "figure": "![Natural Selection & Survival of the Fittest](/notes/biology/ch18-giraffe-selection.webp)",
         "groups": [
           {
             "subTitle": "Steps to write in an answer",
@@ -7239,7 +7315,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "State why it is important to complete a course of antibiotics. [2]",
           "Give two measures that slow the spread of antibiotic-resistant bacteria. [2]",
           "Explain how plasmids help spread antibiotic resistance through a bacterial population. [3]"
-        ]
+        ],
+        "figure": "![Selective Breeding & Antibiotic Resistance](/notes/biology/ch18-selective-breeding-wheat.webp)"
       },
       {
         "title": "Selective Breeding",
@@ -7357,7 +7434,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Ecosystem Basics",
         "body": "### The vocabulary of an ecosystem\nEcology is studied at a ladder of scales, from a single individual up to the whole planet.\n\nAn ecosystem is always the **living plus the non-living**, never the organisms alone.\n\n### Biotic meets abiotic\n\nEvery distribution in a habitat is shaped by both kinds of factor at once.\n\nA tree may find the climate right but the soil pH wrong, and then it cannot establish.\n\n### Scale by scale\nOne individual is an organism; all the individuals of one species form a population; all the populations living there form a community; the community plus its physical environment forms an ecosystem.\n\n",
-        "figure": "",
+        "figure": "![Ecology Concepts: Population, Community & Habitat](/notes/biology/ch19-pond-ecosystem.webp)",
         "groups": [
           {
             "bullets": [
@@ -7515,7 +7592,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "State what the arrows in a food chain represent. [1]",
           "Explain how a food web is more useful than a single food chain. [3]",
           "In a pond web the frogs are removed by disease. Predict and explain the effect on the herons and on the grasshoppers. [4]"
-        ]
+        ],
+        "figure": "![Food Chains, Webs & Trophic Levels](/notes/biology/ch19-food-chain.webp)"
       }
     ]
   },
@@ -7529,7 +7607,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Energy Transfer Between Trophic Levels",
         "body": "### Why food chains rarely exceed four links\nEnergy enters as light, is fixed by producers, and is then **lost at every transfer** — so each higher level has less available to it and supports fewer and larger organisms.\n\n### Losses at every step\n\nAn animal does not eat the whole organism below it, cannot digest all of what it eats, and burns much of what it absorbs in respiration.\n\nOnly the chemical energy that survives these losses becomes new biomass at the next level.\n\n### Reading a pyramid\n\nPyramids are drawn to scale, with the producer level as the base and the top predator as the tip.\n\nEach level is narrower than the one below because energy cannot be replaced from above.",
-        "figure": "| Where the energy goes | What it means |\n| --- | --- |\n| Not absorbed by the producer | Light falls on the ground or passes through a leaf |\n| Respiration | Chemical energy converted and lost as heat to the surroundings |\n| Not eaten | Bones, stems, roots, shell left behind |\n| Not digested / egestion | Lost in faeces |\n| Excretion | Lost in urea and other metabolic wastes |\n| Movement and maintenance | Used up by the animal's own activity |\n\n",
+        "figure": "![Pyramids of Numbers, Biomass & Energy Transfer](/notes/biology/ch19-energy-pyramid.webp)\n\n| Where the energy goes | What it means |\n| --- | --- |\n| Not absorbed by the producer | Light falls on the ground or passes through a leaf |\n| Respiration | Chemical energy converted and lost as heat to the surroundings |\n| Not eaten | Bones, stems, roots, shell left behind |\n| Not digested / egestion | Lost in faeces |\n| Excretion | Lost in urea and other metabolic wastes |\n| Movement and maintenance | Used up by the animal's own activity |\n\n",
         "groups": [
           {
             "bullets": [
@@ -7588,7 +7666,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "The Carbon and Water Cycles",
-        "figure": "",
+        "figure": "![The Carbon Cycle](/notes/biology/ch19-carbon-cycle.webp)",
         "body": "### Two cycles, one shared idea\nIn a **cycle**, a substance is reused rather than spent.\n\nUnlike energy, neither carbon nor water is lost.\n\nCarbon cycles between the atmosphere, organisms and the ground. Water evaporates, condenses, precipitates and returns to the sea and the atmosphere.\n\n### The stores\n\nThe atmosphere holds carbon as carbon dioxide, the oceans hold it dissolved, and coal, oil and wood hold it as long-term stores.\n\nAny process that empties a store into the air is a release; photosynthesis is the main removal.\n\n### The human footprint\nDeforestation removes the carbon locked in timber and shrinks the photosynthetic removal. Burning fossil fuels releases carbon fixed millions of years ago, tipping the balance upward.\n\n",
         "groups": [
           {
@@ -7655,7 +7733,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Outline the roles of nitrifying and denitrifying bacteria in the nitrogen cycle. [4]"
-        ]
+        ],
+        "figure": "![The Nitrogen & Water Cycles](/notes/biology/ch19-carbon-cycle.webp)"
       }
     ]
   },
@@ -7716,7 +7795,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain why samples must be taken randomly. [2]",
           "Describe how a belt transect could investigate how plant distribution changes from a woodland edge to its interior. [5]",
           "State and explain two ways of making a quadrat estimate more reliable. [4]"
-        ]
+        ],
+        "figure": "![Population Growth Curves & Limiting Factors](/notes/biology/ch19-pond-ecosystem.webp)"
       }
     ]
   },
@@ -7729,7 +7809,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
     "subheadings": [
       {
         "title": "Food Production Systems",
-        "figure": "",
+        "figure": "![Food Production: Agriculture & Monoculture](/notes/biology/ch20-intensive-farming.webp)",
         "body": "### How We Obtain Our Food\nAlmost all human food comes from just a few production systems, each of which is managed to raise **yield** — the amount of useful food produced per unit area or per animal.\n\n\n\n### What Yield Depends On\n\nYield rises when photosynthesis is pushed towards its maximum and when losses to weeds, pests and pathogens are cut.\n\nThe factors farmers manipulate most are mineral-ion supply, water, light, carbon dioxide concentration and temperature.\n\n### A Question of Balance\n\nThe same field must produce more food each year and still be fertile enough to keep producing.\n\nA method that pays for this season's harvest by borrowing next season's fertility causes most of the problems followed in the rest of this chapter.",
         "groups": [
           {
@@ -7873,7 +7953,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Describe how slash-and-burn agriculture works and what it leaves behind. [3]",
           "Explain the difference between deforestation and afforestation. [2]",
           "Explain why roads built for logging often lead to further deforestation. [3]"
-        ]
+        ],
+        "figure": "![Deforestation: Causes, Soil Erosion & CO2 Balance](/notes/biology/ch20-deforestation.webp)"
       },
       {
         "title": "Effects of Deforestation",
@@ -7968,7 +8049,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "\n\n",
+        "figure": "![Water Pollution & Eutrophication](/notes/biology/ch20-sewage-treatment.webp)",
         "examinerTips": [
           "In an eutrophication question, the marks are in the **order and the mechanism**: nitrates enter, algae bloom, light is blocked, plants die, aerobic bacteria decay them, oxygen falls, animals die. Include the bacteria step — it is where the oxygen is actually used up.",
           "Say 'aerobic bacteria/respiration' when explaining oxygen loss; naming the decomposers is usually worth a mark on its own.",
@@ -8009,7 +8090,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain the environmental impacts of non-biodegradable plastic waste in marine ecosystems. [3]"
-        ]
+        ],
+        "figure": "![Plastic Pollution & Non-Biodegradable Waste](/notes/biology/ch20-sewage-treatment.webp)"
       }
     ]
   },
@@ -8032,7 +8114,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "State the origin of sulfur dioxide pollution and explain two damaging effects of acid rain. [3]"
-        ]
+        ],
+        "figure": "![Air Pollution: Acid Rain & Greenhouse Gases](/notes/biology/ch20-greenhouse.webp)"
       }
     ]
   },
@@ -8055,7 +8138,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Describe how greenhouse gases warm the Earth's atmosphere. [4]"
-        ]
+        ],
+        "figure": "![Global Climate Change & Enhanced Greenhouse Effect](/notes/biology/ch20-greenhouse.webp)"
       }
     ]
   },
@@ -8110,7 +8194,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Explain why habitat destruction is the main threat to biodiversity. [4]",
           "Describe how breaking a habitat into fragments can reduce a population's chance of survival. [4]",
           "State two consequences of removing species from a food web. [2]"
-        ]
+        ],
+        "figure": "![Conservation of Species: Seed Banks & CITES](/notes/biology/ch20-deforestation.webp)"
       }
     ]
   },
@@ -8124,7 +8209,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "What Is Biotechnology? The Uses of Microorganisms",
         "body": "### Living Organisms at Work\n\n**Biotechnology** is the use of living organisms, or the enzymes taken from them, to manufacture useful products or to bring about a desired change.\n\nMost of it relies on **microorganisms** — bacteria and fungi — because they can be grown in huge numbers and can be made to carry out specific chemical reactions.\n\n\n\n### Enzymes Do the Manufacturing\n\nEvery product in this chapter is made by enzymes inside a microorganism.\n\nControlling the organism's conditions — food, oxygen, temperature and pH — is therefore the same as controlling the rate of the reaction that forms the product.\n\n### Old and New Side by Side\n\nTraditional processes used organisms exactly as nature left them; modern processes alter the organism's genes first.\n\nThat is why the same style of vessel can culture yeast for a loaf and an engineered bacterium for human insulin.",
-        "figure": "",
+        "figure": "![Biotechnology Fundamentals: Yeast & Biofuels](/notes/biology/ch21-food-biotechnology.webp)",
         "groups": [
           {
             "subTitle": "Traditional and Modern Uses",
@@ -8273,7 +8358,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "Describe how mycoprotein is produced on an industrial scale. [4]",
           "State two conditions that a fermenter controls for the microorganism. [2]",
           "Explain why protease and lipase are added to biological washing powders. [3]"
-        ]
+        ],
+        "figure": "![Industrial Fermenters & Enzyme Applications](/notes/biology/ch21-bioreactor.webp)"
       }
     ]
   },
@@ -8315,7 +8401,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
             ]
           }
         ],
-        "figure": "\n\n",
+        "figure": "![Genetic Engineering: Recombinant DNA & Insulin](/notes/biology/ch21-gene-transfer-plasmid.webp)",
         "examinerTips": [
           "Use the exact tool names: **restriction enzyme** cuts, **DNA ligase** joins, **plasmid** is the vector, and the product is **recombinant DNA**. Vague verbs such as 'cut' and 'stick' alone score less.",
           "Order matters. A five- or six-mark 'describe' answer must put the gene being cut out before it is joined to the plasmid, and the insertion into the bacterium before it is grown in the fermenter.",
@@ -8543,7 +8629,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "A specimen has an actual length of 25 µm. The image measured with a ruler is 50 mm. Calculate magnification. [2]"
-        ]
+        ],
+        "figure": "![Magnification Formula (M = I / A) & Unit Conversions](/notes/biology/bio-008-microscope-magnification.jpg)"
       }
     ]
   },
@@ -8658,7 +8745,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Describe how you would test a food sample for the presence of reducing sugar, protein, and lipid. [6]"
-        ]
+        ],
+        "figure": "![Food Tests Protocols (Benedict's, Iodine, Biuret, Ethanol)](/notes/biology/ch04-food-tests.webp)"
       }
     ]
   },
@@ -8681,7 +8769,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "Explain the purpose of placing a transparent glass tank of water between the lamp and pondweed beaker. [2]"
-        ]
+        ],
+        "figure": "![Enzyme & Photosynthesis Experimental Setup Mastery](/notes/biology/ch05-enzyme-jar.webp)"
       }
     ]
   },
@@ -8705,7 +8794,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         "recap": [
           "Explain why potato cylinders must be blotted with paper towel before measuring mass. [2]",
           "How can the water potential of potato cells be determined from a graph of percentage change in mass? [2]"
-        ]
+        ],
+        "figure": "![Osmosis Investigations: Potato Cylinder Protocol](/notes/biology/ch03-potato-osmosis.webp)"
       }
     ]
   },
@@ -8728,7 +8818,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
         ],
         "recap": [
           "State three rules that must be followed when producing a biological specimen drawing. [3]"
-        ]
+        ],
+        "figure": "![Biological Drawings Standards: Outlines & Proportions](/notes/biology/ch02-plant-cell.webp)"
       }
     ]
   }
