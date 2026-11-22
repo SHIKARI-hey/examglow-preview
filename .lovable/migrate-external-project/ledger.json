@@ -1,0 +1,10 @@
+[
+ {"capability":"code, pages, assets, notes","source":"github examglow/Exam-Glow","outcome":"migrate","status":"done","next_action":"none"},
+ {"capability":"accounts table (examglow_accounts)","source":"external Supabase (optional, falls back to browser storage)","outcome":"migrate","status":"pending","next_action":"move to Lovable Cloud when user wants shared admin data"},
+ {"capability":"account records","source":"external Supabase","outcome":"migrate","status":"pending","next_action":"request CSV export"},
+ {"capability":"Google sign-in","source":"Google Identity Services in browser","outcome":"preserve","status":"pending","next_action":"verify Google client ID works on Lovable domain"},
+ {"capability":"account plans KV (EXAMGLOW_ACCOUNTS)","source":"Cloudflare KV binding","outcome":"migrate","status":"pending","next_action":"replace with Lovable Cloud table"},
+ {"capability":"AI tutor","source":"Cloudflare Workers AI binding + Gemini key","outcome":"migrate","status":"pending","next_action":"switch to Lovable AI or add GEMINI_API_KEY secret"},
+ {"capability":"PayPal checkout","source":"PayPal","outcome":"preserve","status":"pending","next_action":"add PayPal keys as secrets"},
+ {"capability":"verification","source":"-","outcome":"verify","status":"pending","next_action":"preview check"}
+]
