@@ -98,7 +98,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Dichotomous Keys",
         "body": "**Dichotomous keys** classify organisms using visible features.\n\nEach step offers a choice of two features and you follow whichever one applies; every option leads to another option, until the organism is narrowed down to its genus and species.",
-        "figure": "",
+        "figure": "![Using a Dichotomous Key with Labels](/notes/biology/bio-003-dichotomous-key.jpg)",
         "groups": [
           {
             "bullets": [
@@ -178,7 +178,8 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
           "State two features that identify a mammal. [2]",
           "Give two differences between amphibians and reptiles. [2]",
           "A vertebrate has feathers and lays hard-shelled eggs. Identify its group. [1]"
-        ]
+        ],
+        "figure": "![The Five Classes of Vertebrates with Labels](/notes/biology/bio-004-vertebrate-classes.jpg)"
       }
     ]
   },
@@ -243,7 +244,7 @@ export const BIOLOGY_CHAPTERS: Chapter[] = [
       {
         "title": "Viruses",
         "body": "Viruses are not part of any classification system, because they are **not considered living things**.\n\n- They do not carry out the seven life processes for themselves; instead they take over a host cell's metabolic pathways to make multiple copies of themselves.\n- A virus consists of **genetic material (RNA or DNA) inside a protein coat**.\n- They have no cytoplasm, no nucleus, no mitochondria and no ribosomes.",
-        "figure": "",
+        "figure": "![Arthropods, Plants and Viruses with Labels](/notes/biology/bio-005-arthropods-plants-virus.jpg)",
         "groups": [],
         "examinerTips": [
           "Label both the genetic material and the protein coat. Do not add cell structures a virus does not have.",
